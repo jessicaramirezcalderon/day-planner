@@ -1,0 +1,109 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+main {
+  margin: 40px 0;
+}
+
+.textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: .5; /* Firefox */
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+}
+
+.row {
+  white-space: pre-line;
+  height: auto;
+  padding: 5px;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+/*Normal state*/
+
+.seg {
+  background-color: white;
+  padding: 0 10px;
+}
+
+/*Passed Hours*/
+
+.past {
+  background-color: #E87461;
+  color: white;
+}
+
+/*Current hour*/
+.present {
+  background-color: #A1CF6B;
+  color: white;
+}
+
+/*For future events added to the calendar not yet past*/
+.future {
+  background-color: #D5D887;
+  color: white;
+}
+
+.saveBtn {
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.container {
+  background-color: #D1E3DD;
+  
+}
+
+button {
+  border: none;
+}
+
+.pri {
+  background-color: #6E7DAB;
+  padding: 0 10px;
+  text-align: center;
+  color: white;
+}
+
+.ter {
+  background-color: #5762D5;
+  padding: 0 10px;
+}

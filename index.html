@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  <!-- Timeblocks go here -->
+  <main>
+    <div class="container rounded">
+      <div class="row" data-hour="8">
+        <div class="col-2 pri">
+          8:00 AM
+        </div>
+        <div class="col-8 seg">
+          <input class="textarea" id="event-input" type="text" placeholder="Event" aria-label="user-input" class="form-control">
+        </div>
+        <button class="col-2 ter saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="row" data-hour="9">
+        <div class="col-2 pri">
+          9:00 AM
+        </div>
+        <div class="col-8 seg">
+          <input class="textarea" id="event-input" type="text" placeholder="Event" aria-label="user-input" class="form-control">
+        </div>
+        <button class="col-2 ter saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="row" data-hour="10">
+        <div class="col-2 pri">
+          10:00 AM
+        </div>
+        <div class="col-8 seg">
+          <input class="textarea" id="event-input" type="text" placeholder="Event" aria-label="user-input" class="form-control">
+        </div>
+        <button class="col-2 ter saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="row" data-hour="11">
+        <div class="col-2 pri">
+          11:00 AM
+        </div>
+        <div class="col-8 seg">
+          <input class="textarea" id="event-input" type="text" placeholder="Event" aria-label="user-input" class="form-control">
+        </div>
+        <button class="col-2 ter saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="row" data-hour="12">
+        <div class="col-2 pri">
+          12:00 PM
+        </div>
+        <div class="col-8 seg">
+          <input class="textarea" id="event-input" type="text" placeholder="Event" aria-label="user-input" class="form-control">
+        </div>
+        <button class="col-2 ter saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="row"  data-hour="13">
+        <div class="col-2 pri">
+          1:00 PM
+        </div>
+        <div class="col-8 seg">
+          <input class="textarea" id="event-input" type="text" placeholder="Event" aria-label="user-input" class="form-control">
+        </div>
+        <button class="col-2 ter saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="row" data-hour="14">
+        <div class="col-2 pri">
+          2:00 PM
+        </div>
+        <div class="col-8 seg">
+          <input class="textarea" id="event-input" type="text" placeholder="Event" aria-label="user-input" class="form-control">
+        </div>
+        <button class="col-2 ter saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="row" data-hour="15">
+        <div class="col-2 pri">
+          3:00 PM
+        </div>
+        <div class="col-8 seg">
+          <input class="textarea" id="event-input" type="text" placeholder="Event" aria-label="user-input" class="form-control">
+        </div>
+        <button class="col-2 ter saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="row" data-hour="16">
+        <div class="col-2 pri">
+          4:00 PM
+        </div>
+        <div class="col-8 seg">
+          <input class="textarea" id="event-input" type="text" placeholder="Event" aria-label="user-input" class="form-control">
+        </div>
+        <button class="col-2 ter saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="row" data-hour="17">
+        <div class="col-2 pri">
+          5:00 PM
+        </div>
+        <div class="col-8 seg">
+          <input class="textarea" id="event-input" type="text" placeholder="Event" aria-label="user-input" class="form-control">
+        </div>
+        <button class="col-2 ter saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+  
+</body>
+
+</html>
